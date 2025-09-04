@@ -6,6 +6,10 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 res.status(200);
 });
+app.get("/test", (req, res) => {
+  res.send("testing");
+res.status(200);
+});
 
 
 app.listen(3000, () => {
